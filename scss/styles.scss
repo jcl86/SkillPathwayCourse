@@ -1,20 +1,7 @@
 
-.hero-unit {
-    background: url('../img/hero-unit-background-desktop.jpg');
-    background-size: cover;
-    background-position: center;
-
-    .hero-unit-subheading{
-        color: #9acff6;
-        text-transform: uppercase;
-    }
-}
-
-.btn {
-    text-transform: uppercase;
-    
-    &.btn-primary{
-        background: black;
-    }
-}
-
+@import 'core';
+@import 'helpers';
+@import 'hero-unit';
+@import 'buttons';
+@import 'content-section';
+@import 'portfolio-cards';
