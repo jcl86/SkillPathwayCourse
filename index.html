@@ -9,8 +9,9 @@
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+        
         <link rel="stylesheet" href="css/styles.css">
     </head>
 
@@ -90,6 +91,50 @@
             <div class="content-section-side-image-container d-none d-sm-block" style="background-image: url(img/who-am-i-desktop.jpg)"></div>
     
         </section>
+
+
+        <section class="content-section content-section-centered">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>Contacta con nosotros</h2>
+                        <p>Rellena el formulario para realizar <em>una consulta</em>. Siempre al rescate del ciudadano</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="row">
+                    <div class="offset-sm-3 col-sm-6">
+                        <form action="#" class="contact-form">
+
+                            <input class="contact-form-input" type="text" name="nombre"
+                             id="nombre" placeholder="Indiquenos su nombre" value="" required>
+
+                             <input class="contact-form-input" type="email" name="correo"
+                             id="correo" placeholder="Indiquenos su email" value="" required>
+
+                             <input class="contact-form-input" type="text" name="telefono"
+                             id="telefono" placeholder="Indiquenos su telefono" value="">
+
+                             <textarea class="contact-form-input" name="comentario" id="comentario" cols="30" rows="10"
+                              placeholder="Escriba aquí su consulta"></textarea>
+
+                             <div class="contact-from-actions">
+                                <input class="contact-form-checkbox-input" type="checkbox" name="consentir" id="consentir" value=1 required>
+                                <label for="consentir" class="contact-form-checkbox-label">Accedo a recibir la información en 
+                                    una respuesta directa. La empresa no se hace responsable del uso de otros datos.</label>
+                                <button type="submit" class="btn btn-block btn-primary">Enviar</button>
+                             </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            &copy; Abogados del diablo - 2019
+        </footer>
 
         <script type="text/javascript" src="js/scripts.js"></script>
 
