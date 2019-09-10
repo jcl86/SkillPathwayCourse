@@ -4,6 +4,10 @@
     h1, h2, h3, h4, h5, h6 {
         color: white;
     }
+
+    &.btn:hover {
+        color: #e8e8e8;
+    }
 }
 
 .img-circle {
@@ -12,4 +16,8 @@
 
 .bg-primary {
     background: linear-gradient(105.63deg, black -21%, white 147%);
+}
+
+.block-section {
+    min-height: 100vh;
 }

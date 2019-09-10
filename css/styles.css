@@ -26,6 +26,8 @@ a {
   color: white; }
   .dark-content h1, .dark-content h2, .dark-content h3, .dark-content h4, .dark-content h5, .dark-content h6 {
     color: white; }
+  .dark-content.btn:hover {
+    color: #e8e8e8; }
 
 .img-circle {
   border-radius: 50%; }
@@ -34,6 +36,9 @@ a {
   background: -webkit-linear-gradient(344.37deg, black -21%, white 147%);
   background: -o-linear-gradient(344.37deg, black -21%, white 147%);
   background: linear-gradient(105.63deg, black -21%, white 147%); }
+
+.block-section {
+  min-height: 100vh; }
 
 .hero-unit {
   background: url("../img/hero-unit-background-desktop.jpg");
@@ -72,6 +77,8 @@ a {
     background: -webkit-linear-gradient(344.37deg, black -21%, white 147%);
     background: -o-linear-gradient(344.37deg, black -21%, white 147%);
     background: linear-gradient(105.63deg, black -21%, white 147%); }
+  .btn.navigation-button {
+    background-color: transparent; }
 
 .content-section {
   margin-top: 60px;
